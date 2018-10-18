@@ -1,7 +1,6 @@
 package com.example.ali.myapp;
 
 import android.support.annotation.NonNull;
-import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -21,9 +20,9 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
             catImage=(ImageView)itemView.findViewById(R.id.catImage);
         }
     }
-    List<CategoryModel>categoryList;
+    List<CategoryModel> categoryList;
     CustomClick click;
-    public CustomAdapter(List<CategoryModel>categoryList,
+    public CustomAdapter(List<CategoryModel> categoryList,
                          CustomClick click){
         this.categoryList=categoryList;
         this.click=click;

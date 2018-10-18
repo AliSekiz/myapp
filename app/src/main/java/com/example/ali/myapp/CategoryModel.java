@@ -5,7 +5,7 @@ import java.util.List;
 public class CategoryModel {
     private String catName;
     private int photoId;
-    public List<CategoryModel>categoryList;
+    public List<CategoryModel> categoryList;
 
     public String getCatName() {
         return this.catName;
